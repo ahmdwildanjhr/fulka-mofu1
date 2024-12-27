@@ -14,6 +14,21 @@ html {
   /* Pastikan body dan html memiliki tinggi 100% */
 }
 
+/* Media query untuk perangkat yang lebih kecil */
+@media (max-width: 412px) {
+
+  .body,
+  html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    /* Hilangkan batas lebar jika layar kecil */
+    height: auto;
+    /* Tinggi disesuaikan secara proporsional */
+    margin: 0 auto;
+  }
+}
+
 .v319_600 {
   width: 412px;
   height: 4159px;
